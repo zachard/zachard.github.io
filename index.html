@@ -1,250 +1,737 @@
 <!DOCTYPE html>
-<html>
-
+<html  lang="zh">
 <head>
-  
-  <title>zachard|个人博客</title>
-  <meta charset="UTF-8">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  
-  
+    <meta charset="utf-8" />
 
-  <link rel="shortcut icon" href="/favicon.ico" type="image/png" />
-  <meta property="og:type" content="website">
-<meta property="og:title" content="zachard|个人博客">
+<meta name="generator" content="Hexo 4.0.0" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<title>有球、必进</title>
+
+
+    <meta property="og:type" content="website">
+<meta property="og:title" content="有球、必进">
 <meta property="og:url" content="http:&#x2F;&#x2F;zachard.github.io&#x2F;index.html">
-<meta property="og:site_name" content="zachard|个人博客">
-<meta property="og:locale" content="en">
+<meta property="og:site_name" content="有球、必进">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http:&#x2F;&#x2F;zachard.github.io&#x2F;images&#x2F;og_image.png">
 <meta name="twitter:card" content="summary">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/css/mdui.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.15.8/styles/atom-one-dark.css">
-   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-  
-  
-  <link rel="stylesheet" href="//at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css">
-  <link rel="stylesheet" href="css/style.css?v=1575897365674">
-</head>
+<meta name="twitter:image" content="http:&#x2F;&#x2F;zachard.github.io&#x2F;images&#x2F;og_image.png">
 
-<body class="mdui-drawer-body-left">
-  
-  <div id="nexmoe-background">
-    <div class="nexmoe-bg" style="background-image: url(https://i.loli.net/2019/01/13/5c3aec85a4343.jpg)"></div>
-    <div class="mdui-appbar mdui-shadow-0">
-      <div class="mdui-toolbar">
-        <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
-        <div class="mdui-toolbar-spacer"></div>
-        <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
-        <a href="index.html" title="zachard" class="mdui-btn mdui-btn-icon"><img src="/images/avatar.png"></a>
-       </div>
-    </div>
-  </div>
-  <div id="nexmoe-header">
-      <div class="nexmoe-drawer mdui-drawer" id="drawer">
-    <div class="nexmoe-avatar mdui-ripple">
-        <a href="index.html" title="zachard">
-            <img src="/images/avatar.png" alt="zachard">
-        </a>
-    </div>
-    <div class="nexmoe-count">
-        <div><span>Articles</span>3</div>
-        <div><span>Tags</span>0</div>
-        <div><span>Categories</span>1</div>
-    </div>
-    <ul class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
-        
-        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="index.html" title="回到首页">
-            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
-            <div class="mdui-list-item-content">
-                回到首页
+
+
+
+
+
+
+<link rel="icon" href="/images/favicon.svg">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.7.2/css/bulma.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,600|Source+Code+Pro">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css">
+
+
+    
+    
+<style>body>.footer,body>.navbar,body>.section{opacity:0}</style>
+
+    
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css">
+
+    
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.css">
+
+    
+    
+    
+    
+<link rel="stylesheet" href="css/back-to-top.css">
+
+    
+    
+    
+    
+    
+    
+    
+    <link rel="stylesheet" href="css/progressbar.css">
+<script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+    
+    
+    
+
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<!-- <body class="is-3-column"> -->  <!-- 20191213修改之前, 阅读文章强制固定为三栏 -->
+<body class="is-3-column">  <!-- 20191213 强制修改文章阅读时为三拦 -->
+    <nav class="navbar navbar-main">
+    <div class="container">
+        <div class="navbar-brand is-flex-center">
+            <a class="navbar-item navbar-logo" href="../index.html">
+            
+                <img src="../images/sign.svg" alt="有球、必进" height="28">
+            
+            </a>
+        </div>
+        <div class="navbar-menu">
+            
+            <div class="navbar-end">
+                
+                
+                
+                <a class="navbar-item search" title="搜索" href="javascript:;" target="_blank" rel="noopener">
+                    <i class="fas fa-search"></i>
+                </a>
+                
             </div>
-        </a>
+        </div>
+    </div>
+</nav>
+    
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main">
+    
+<div class="card">
+    
+    <div class="card-content article ">
+        <!-- 20191213 阅读文章页将标题移动到文章最上方 开始 -->
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                <a class="has-link-black-ter" href="friends.html"><i class="fas fa-hand-point-right"></i> 友情链接</a>
+            
+        </h1>
+        <!-- 20191213 阅读文章页将标题移动到文章最上方 结束 -->
         
-        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/about.html" title="关于博客">
-            <i class="mdui-list-item-icon nexmoefont icon-info-circle"></i>
-            <div class="mdui-list-item-content">
-                关于博客
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <!-- <time class="level-item has-text-grey" datetime="2019-12-10T09:56:01.000Z">2019-12-10</time> --> <!-- 20191213 文章内容阅读页注释发表时间 -->
+                <!-- 20191213 内容阅读页增加创建、修改时间等 开始 -->
+                <time class="level-item has-text-grey" datetime="2019-12-10T09:56:01.000Z">发表于:&nbsp;2019-12-10</time>
+                
+                <!-- 20191213 内容阅读页增加创建、修改时间等 结束 -->
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    41 分钟 读完 (大约 6213 个字)
+                </span>
+                
+                
             </div>
-        </a>
+        </div>
         
-        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/PY.html" title="我的朋友">
-            <i class="mdui-list-item-icon nexmoefont icon-unorderedlist"></i>
-            <div class="mdui-list-item-content">
-                我的朋友
+        <!-- 20191213 文章内容阅读页自定义标题, 删除原有标题  开始-->
+        <!-- <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                <a class="has-link-black-ter" href="friends.html">友情链接</a>
+            
+        </h1> -->
+        <!-- 20191213 文章内容阅读页自定义标题, 删除原有标题  结束-->
+        <div class="content">
+            <p>这是我的朋友么.  </p>
+        </div>
+        <!-- 20191214 文章内容阅读页增加版权说明 开始-->
+        
+        <!-- 20191214 文章内容阅读页增加版权说明 结束-->
+        
+        
+        <!-- <div class="level is-mobile"> -->  <!-- 20191213 文章结尾优化,注释 -->
+        <!-- 20191213 文章结尾优化,修改阅读更多 开始 -->
+        <hr style="height:1px;margin:1rem 0"/>
+        <div class="level is-mobile is-flex">
+            <div class="level-start">
+                
+                    <div class="level-item is-size-7 is-uppercase">
+                        <i class="fas fa-tags has-text-grey"></i>&nbsp;
+                        <a class="has-link-grey -link" href="tags/hello/" rel="tag">hello</a>
+                    </div>
+                
             </div>
-        </a>
+            <!-- 20191213 文章结尾优化,修改阅读更多 结束 -->
+            <div class="level-start">
+                <div class="level-item">
+                <a class="button is-size-7 is-light" href="friends.html#more">阅读更多</a>
+                </div>
+            </div>
+        </div>
         
-    </ul>
-    <aside id="nexmoe-sidebar">
-  
-  <div class="nexmoe-widget-wrap">
-    <h3 class="nexmoe-widget-title">Social</h3>
-    <div class="nexmoe-widget nexmoe-social">
-        <a class="mdui-ripple" href="https://space.bilibili.com/20238211" target="_blank" mdui-tooltip="{content: '哔哩哔哩'}" style="color: rgb(231, 106, 141);background-color: rgba(231, 106, 141, .15);">
-            <i class="nexmoefont icon-bilibili"></i>
-        </a><a class="mdui-ripple" href="https://github.com/nexmoe/" target="_blank" mdui-tooltip="{content: 'GitHub'}" style="color: rgb(25, 23, 23);background-color: rgba(25, 23, 23, .15);">
-            <i class="nexmoefont icon-github"></i>
-        </a>
+        
     </div>
 </div>
-  
-  
-  <div class="nexmoe-widget-wrap">
-    <h3 class="nexmoe-widget-title">Categories</h3>
-    <div class="nexmoe-widget">
 
-      <ul class="category-list">
 
+
+
+
+
+
+
+    
+<div class="card">
+    
+    <div class="card-image">
+        <a href="about.html" class="image is-7by1">
+            <img class="thumbnail" src="images/avatar.jpg" alt="关于我自己">
+        </a>
+    </div>
+    
+    <div class="card-content article ">
+        <!-- 20191213 阅读文章页将标题移动到文章最上方 开始 -->
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                <a class="has-link-black-ter" href="about.html"><i class="fas fa-hand-point-right"></i> 关于我自己</a>
+            
+        </h1>
+        <!-- 20191213 阅读文章页将标题移动到文章最上方 结束 -->
         
-
-
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <!-- <time class="level-item has-text-grey" datetime="2019-12-10T08:41:41.000Z">2019-12-10</time> --> <!-- 20191213 文章内容阅读页注释发表时间 -->
+                <!-- 20191213 内容阅读页增加创建、修改时间等 开始 -->
+                <time class="level-item has-text-grey" datetime="2019-12-10T08:41:41.000Z">发表于:&nbsp;2019-12-10</time>
+                
+                <!-- 20191213 内容阅读页增加创建、修改时间等 结束 -->
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    几秒 读完 (大约 17 个字)
+                </span>
+                
+                
+            </div>
+        </div>
         
+        <!-- 20191213 文章内容阅读页自定义标题, 删除原有标题  开始-->
+        <!-- <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                <a class="has-link-black-ter" href="about.html">关于我自己</a>
+            
+        </h1> -->
+        <!-- 20191213 文章内容阅读页自定义标题, 删除原有标题  结束-->
+        <div class="content">
+            <p>这是关于我自己的描述.<br>jsjsjjsjsjjsjjsjsjs<br>sjsjkskksskskkskksksk<br>sjjsjsjkskksksksjsj<br>shshhshsshsh</p>
+<p><img src="images/avatar.jpg" alt>  </p>
 
+        </div>
+        <!-- 20191214 文章内容阅读页增加版权说明 开始-->
         
+        <!-- 20191214 文章内容阅读页增加版权说明 结束-->
+        
+        
+        
+    </div>
+</div>
 
-        <li class="category-list-item">
-          <a class="category-list-link" href="/categories/page/">page</a>
-          <span class="category-list-count">1</span>
+
+
+
+
+
+
+
+</div>
+                
+
+
+
+
+<div class="column is-4-tablet is-4-desktop is-3-widescreen  has-order-1 column-left ">
+    
+        
+<div class="card widget">
+    <div class="card-content">
+        <nav class="level">
+            <div class="level-item has-text-centered" style="flex-shrink: 1">
+                <div>
+                    
+                    <figure class="image is-128x128 has-mb-6">
+                        <img class="is-rounded" src="/images/Hancock.jpeg" alt="Richard">
+                    </figure>
+                    
+                    <p class="is-size-4 is-block">
+                        Richard
+                    </p>
+                    
+                    
+                    <p class="is-size-6 is-block">
+                        Java Developer
+                    </p>
+                    
+                    
+                    <p class="is-size-6 is-flex is-flex-center has-text-grey">
+                        <i class="fas fa-map-marker-alt has-mr-7"></i>
+                        <span>Shanghai, China</span>
+                    </p>
+                    
+                </div>
+            </div>
+        </nav>
+        <!-- <nav class="level is-mobile"> -->  <!-- 20191213个人信息文章计数超链接调整,注释 -->
+        <nav class="level menu-list is-mobile" style="margin-bottom:1rem">  <!-- 20191213个人信息文章计数悬停样式 -->
+            <div class="level-item has-text-centered is-marginless">
+                <div>
+                    <a href="/archives">
+                        <!-- 20191213个人信息文章计算, 增加文章超链接可点击区域 开始-->
+                        <p class="heading">
+                            文章
+                        </p>
+                        <!-- 20191213个人信息文章计算, 增加文章超链接可点击区域 结束-->
+                        <p class="title has-text-weight-normal">
+                            2
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="level-item has-text-centered is-marginless">
+                <div>
+                    <a href="/categories">
+                        <!-- 20191213个人信息文章计算, 增加分类超链接可点击区域 开始-->
+                        <p class="heading">
+                            分类
+                        </p>
+                        <!-- 20191213个人信息文章计算, 增加分类超链接可点击区域 结束-->
+                        <p class="title has-text-weight-normal">
+                            0
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="level-item has-text-centered is-marginless">
+                <div>
+                    <a href="/tags">
+                        <!-- 20191213个人信息文章计算, 增加标签超链接可点击区域 开始-->
+                        <p class="heading">
+                            标签
+                        </p>
+                        <!-- 20191213个人信息文章计算, 增加标签超链接可点击区域 结束-->
+                        <p class="title has-text-weight-normal">
+                            1
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="level">
+            <a class="level-item button is-link is-rounded" href="https://github.com/zachard" target="_blank">
+                <i class="fab fa-github">&nbsp;</i>关注我</a>
+        </div>
+        
+        
+        
+    </div>
+</div>
+    
+        
+    
+        
+<div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                分类
+            </h3>
+            <ul class="menu-list">
+            
+            </ul>
+        </div>
+    </div>
+</div>
+    
+        <!-- <div class="card widget"> -->  <!-- 20191213移动端访问隐藏标签云 -->
+<div class="card widget is-hidden-mobile">  <!-- 20191213移动端访问隐藏标签云 -->
+    <div class="card-content">
+        <h3 class="menu-label">
+            标签云
+        </h3>
+        <a href="../tags/hello/" style="font-size: 10px;">hello</a>
+    </div>
+</div>
+    
+    
+        <div class="column-right-shadow is-hidden-widescreen ">
+        
+            <div class="card widget">
+    <div class="card-content">
+        <h3 class="menu-label">
+            最新文章
+        </h3>
+        
+        <article class="media">
+            
+            <a href="friends.html" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="images/thumbnail.svg" alt="友情链接">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-12-10T09:56:01.000Z">2019-12-10</time></div>
+                    <a href="friends.html" class="title has-link-black-ter is-size-6 has-text-weight-normal">友情链接</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="about.html" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="images/avatar.jpg" alt="关于我自己">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-12-10T08:41:41.000Z">2019-12-10</time></div>
+                    <a href="about.html" class="title has-link-black-ter is-size-6 has-text-weight-normal">关于我自己</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+    </div>
+</div>
+        
+            <!-- <div class="card widget"> -->  <!-- 20191213移动端访问隐藏归档 -->
+<div class="card widget is-hidden-mobile">  <!-- 20191213移动端访问隐藏归档 -->
+    <div class="card-content">
+        <div class="menu">
+        <h3 class="menu-label">
+            归档
+        </h3>
+        <ul class="menu-list">
+        
+        <li>
+            <a class="level is-marginless" href="2019/12/">
+                <span class="level-start">
+                    <span class="level-item">十二月 2019</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">2</span>
+                </span>
+            </a>
         </li>
-
         
-      </ul>
-
-    </div>
-  </div>
-
-
-  
-  
-  
-  
-  <div class="nexmoe-widget-wrap">
-    <h3 class="nexmoe-widget-title">Archive</h3>
-    <div class="nexmoe-widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="archives/2019/12/">December 2019</a></li></ul>
-    </div>
-  </div>
-
-
-  
-</aside>
-    <div class="nexmoe-copyright">
-        &copy; 2019 zachard
-        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-        & <a href="https://nexmoe.com/hexo-theme-nexmoe.html" target="_blank">Nexmoe</a>
-    </div>
-</div><!-- .nexmoe-drawer -->
-  </div>
-  <div id="nexmoe-content">
-    <div class="nexmoe-primary">
-        <section class="nexmoe-posts" id="brand-waterfall">
-    
-    <div class="nexmoe-post">
-        <a href="about.html">
-            <div class="nexmoe-post-cover mdui-ripple"> 
-                
-                    <img src="https://i.loli.net/2019/01/13/5c3aec85a4343.jpg" alt="关于自己">
-                
-                <h1>关于自己</h1>
-            </div>
-        </a>
-        <div class="nexmoe-post-meta">
-            <a><i class="nexmoefont icon-calendar-fill"></i>2019年12月09日</a>
-            <a><i class="nexmoefont icon-areachart"></i>8 字</a>
-            <a><i class="nexmoefont icon-time-circle-fill"></i>大概 1 分钟</a>
-            
-            
+        </ul>
         </div>
-        <article>
-            
-            <p>这是关于我的描述.  </p>
-
-            
-        </article>
     </div>
-    
-    <div class="nexmoe-post">
-        <a href="2019120902.html">
-            <div class="nexmoe-post-cover mdui-ripple"> 
+</div>
+        
+            <div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                标签
+            </h3>
+            <div class="field is-grouped is-grouped-multiline">
                 
-                    <img src="https://i.loli.net/2019/01/13/5c3aec85a4343.jpg" alt="试一下行不行">
+                <div class="control">
+                    <a class="tags has-addons" href="hello/">
+                        <span class="tag">hello</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
                 
-                <h1>试一下行不行</h1>
             </div>
-        </a>
-        <div class="nexmoe-post-meta">
-            <a><i class="nexmoefont icon-calendar-fill"></i>2019年12月09日</a>
-            <a><i class="nexmoefont icon-areachart"></i>4 字</a>
-            <a><i class="nexmoefont icon-time-circle-fill"></i>大概 1 分钟</a>
-            
-                <a class="nexmoefont icon-appstore-fill -link" href="categories/page/">page</a>
-            
-            
         </div>
-        <article>
-            
-            <p>能不能行? </p>
-
-            
-        </article>
     </div>
+</div>
+        
+        </div>
     
-    <div class="nexmoe-post">
-        <a href="2019120901.html">
-            <div class="nexmoe-post-cover mdui-ripple"> 
+</div>
+
                 
-                    <img src="https://i.loli.net/2019/01/13/5c3aec85a4343.jpg" alt="index">
-                
-                <h1>index</h1>
+
+
+
+
+<div class="column is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only has-order-3 column-right ">
+    
+        <div class="card widget">
+    <div class="card-content">
+        <h3 class="menu-label">
+            最新文章
+        </h3>
+        
+        <article class="media">
+            
+            <a href="friends.html" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="images/thumbnail.svg" alt="友情链接">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-12-10T09:56:01.000Z">2019-12-10</time></div>
+                    <a href="friends.html" class="title has-link-black-ter is-size-6 has-text-weight-normal">友情链接</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
             </div>
-        </a>
-        <div class="nexmoe-post-meta">
-            <a><i class="nexmoefont icon-calendar-fill"></i>2019年12月09日</a>
-            <a><i class="nexmoefont icon-areachart"></i>6 字</a>
-            <a><i class="nexmoefont icon-time-circle-fill"></i>大概 1 分钟</a>
-            
-            
-        </div>
-        <article>
-            
-            <p>测试跳转链接.  </p>
-
-            
         </article>
+        
+        <article class="media">
+            
+            <a href="about.html" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="images/avatar.jpg" alt="关于我自己">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-12-10T08:41:41.000Z">2019-12-10</time></div>
+                    <a href="about.html" class="title has-link-black-ter is-size-6 has-text-weight-normal">关于我自己</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
+        
     </div>
+</div>
     
-</section>
-
+        <!-- <div class="card widget"> -->  <!-- 20191213移动端访问隐藏归档 -->
+<div class="card widget is-hidden-mobile">  <!-- 20191213移动端访问隐藏归档 -->
+    <div class="card-content">
+        <div class="menu">
+        <h3 class="menu-label">
+            归档
+        </h3>
+        <ul class="menu-list">
+        
+        <li>
+            <a class="level is-marginless" href="2019/12/">
+                <span class="level-start">
+                    <span class="level-item">十二月 2019</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">2</span>
+                </span>
+            </a>
+        </li>
+        
+        </ul>
+        </div>
     </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/js/mdui.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
- 
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+</div>
+    
+        <div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                标签
+            </h3>
+            <div class="field is-grouped is-grouped-multiline">
+                
+                <div class="control">
+                    <a class="tags has-addons" href="hello/">
+                        <span class="tag">hello</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+</div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+    <div class="container">
+        <div class="level">
+            <div class="level-start has-text-centered-mobile">
+                <a class="footer-logo is-block has-mb-6" href="../index.html">
+                
+                    <img src="../images/sign.svg" alt="有球、必进" height="28">
+                
+                </a>
+                <p class="is-size-7">
+                &copy; 2019 Richard&nbsp;
+                Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> & <a
+                        href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank">Icarus</a>
+                
+                </p>
+            </div>
+            <div class="level-end">
+            
+                <div class="field has-addons is-flex-center-mobile has-mt-5-mobile is-flex-wrap is-flex-middle">
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" title="CC BY-NC-SA 4.0" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                        
+                        <!-- <i class="fab fa-creative-commons,fab fa-creative-commons-by,fab fa-creative-commons-nc,fab fa-creative-commons-sa"></i> -->  <!-- 20191214 文章底部的icon显示 -->
+                        <i class="fab fa-creative-commons"></i>&nbsp;<i class="fab fa-creative-commons-by"></i>&nbsp;<i class="fab fa-creative-commons-nc"></i>&nbsp;<i class="fab fa-creative-commons-sa"></i>&nbsp; <!-- 20191214 文章阅读页底部的icon显示 -->
+                        
+                    </a>
+                </p>
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus">
+                        
+                        <!-- <i class="fab fa-github"></i> -->  <!-- 20191214 文章底部的icon显示 -->
+                        <i class="fab fa-github"></i>&nbsp; <!-- 20191214 文章阅读页底部的icon显示 -->
+                        
+                    </a>
+                </p>
+                
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script>
+<script>moment.locale("zh-CN");</script>
+
+<script>
+var IcarusThemeSettings = {
+    article: {
+        highlight: {
+            clipboard: true,
+            fold: 'unfolded'
+        }
+    }
+};
+</script>
 
 
- 
-    <script src="https://cdn.jsdelivr.net/npm/smoothscroll-for-websites@1.4.9/SmoothScroll.min.js"></script>
-
-
-<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.8/build/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-
-<script src="js/app.js?v=1575897365676"></script>
-<script src="https://cdn.jsdelivr.net/npm/lazysizes@5.1.0/lazysizes.min.js"></script>
-
-
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/xtaodada/xtaodada.github.io@0.0.2/copy.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script>
 
 
 
-  
+    
+    
+<script src="js/animation.js"></script>
+
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script>
+<script src="js/gallery.js" defer></script>
+
+    
+    
+<div id="outdated">
+    <h6>Your browser is out-of-date!</h6>
+    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/" target="_blank" rel="noopener">Update
+            my browser now </a></p>
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.js" defer></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        outdatedBrowser({
+            bgColor: '#f25648',
+            color: '#ffffff',
+            lowerThan: 'flex'
+        });
+    });
+</script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    MathJax.Hub.Config({
+        'HTML-CSS': {
+            matchFontHeight: false
+        },
+        SVG: {
+            matchFontHeight: false
+        },
+        CommonHTML: {
+            matchFontHeight: false
+        },
+        tex2jax: {
+            inlineMath: [
+                ['$','$'],
+                ['\\(','\\)']
+            ]
+        }
+    });
+});
+</script>
+    
+    
+<a id="back-to-top" title="回到顶端" href="javascript:;" target="_blank" rel="noopener">
+    <i class="fas fa-chevron-up"></i>
+</a>
+<script src="js/back-to-top.js" defer></script>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
+<script src="js/main.js" defer></script>
 
-
-
+    
+    <div class="searchbox ins-search">
+    <div class="searchbox-container ins-search-container">
+        <div class="searchbox-input-wrapper">
+            <input type="text" class="searchbox-input ins-search-input" placeholder="想要查找什么..." />
+            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="searchbox-result-wrapper ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: '文章',
+                PAGES: '页面',
+                CATEGORIES: '分类',
+                TAGS: '标签',
+                UNTITLED: '(无标题)',
+            },
+            CONTENT_URL: '/content.json',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script src="js/insight.js" defer></script>
+<link rel="stylesheet" href="css/search.css">
+<link rel="stylesheet" href="css/insight.css">
+    
 </body>
-
 </html>
